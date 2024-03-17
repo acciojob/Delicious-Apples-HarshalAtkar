@@ -1,37 +1,110 @@
 /* your code here */
-*{
-box-sizing:border-box;
-padding:0;
-margin:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-	background-color:#10e37f;
-	display:flex;
-	align-items:center;
-	justify-content:center;	
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c59090;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
-.product__photo{
-background-color:red;
+.product {
+  display: flex;
+  background-color: rgb(78, 250, 78);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.product{
-display:flex;
-	background-color:gray;
-	padding:50px;
-	height:600px;
-	width:600px;
+
+.controls {
+  display: flex;
 }
-.photo-container{
-	position:relative;
-	background-color:#bfec54;
-	height:80%;
-	
+.container {
+  width: 800px;
+  background-color: rgb(179, 22, 22);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #1b45a8;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.photo-container img{
-	position:absolute;
+
+.product__photo {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  right: 40px;
 }
-ul{
-display:flex;
+
+.photo-main img {
+  position: relative;
+  right: 80px;
 }
-li{
-	list-style:none;
+.photo-main {
+  background-color: #b9eb49;
+}
+.photo-container {
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+.photo-album ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.photo-album li img {
+  max-width: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #299f7e;
+}
+
+.price span {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1877f2;
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1877f2;
+}
+
+.variant {
+  /* display: flex; */
+  gap: 10px;
+}
+.variant ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.variant a {
+  text-decoration: none;
+  color: #34c97e;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.add-to-cart {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add-to-cart button {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
