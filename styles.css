@@ -1,1 +1,37 @@
 /* your code here */
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;
+}
+body{
+	background-color:#10e37f;
+	display:flex;
+	align-items:center;
+	justify-content:center;	
+}
+.product__photo{
+background-color:red;
+}
+.product{
+display:flex;
+	background-color:gray;
+	padding:50px;
+	height:600px;
+	width:600px;
+}
+.photo-container{
+	position:relative;
+	background-color:#bfec54;
+	height:80%;
+	
+}
+.photo-container img{
+	position:absolute;
+}
+ul{
+display:flex;
+}
+li{
+	list-style:none;
+}
