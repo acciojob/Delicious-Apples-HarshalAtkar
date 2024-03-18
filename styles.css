@@ -18,10 +18,14 @@ body {
   background-color: rgb(78, 250, 78);
   padding-top: 50px;
   padding-bottom: 50px;
+	border-radius:20px;
 }
 
 .controls {
   display: flex;
+	justify-content:space-between;
+	padding:15px;
+	color:white;
 }
 .container {
   width: 800px;
@@ -48,7 +52,7 @@ body {
 .photo-main {
   background-color: #b9eb49;
 }
-.photo-container {
+.photo-container,  .product__photo {
   border-radius: 20px;
   background-color: aliceblue;
 }
@@ -73,6 +77,8 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #1877f2;
+	margin-top:40px;
+	margin-bottom:40px;
 }
 
 .variant {
@@ -100,8 +106,8 @@ body {
   text-align: center;
 }
 
-.add-to-cart button {
-  background-color: #42b72a;
+.add-to-cart{
+  background-color:red;
   color: white;
   border: none;
   padding: 10px 20px;
